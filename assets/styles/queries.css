@@ -1,0 +1,144 @@
+@media (max-width: 111.125em) {
+  #main-window {
+    height: 80%;
+  }
+}
+
+@media (max-width: 99.375em) {
+  :root {
+    --gap: 1.8rem;
+  }
+}
+
+@media (max-width: 88.625em) {
+  body {
+    font-size: 1.4rem;
+  }
+  :root {
+    --gap: 2.2rem;
+  }
+}
+
+@media (max-width: 78.75em) {
+  :root {
+    --gap: 1.8rem;
+  }
+}
+
+@media (max-width: 73.625em) {
+  #main-window {
+    padding: 1.4rem 2.4rem;
+  }
+}
+
+@media (max-width: 69.0625em) {
+  :root {
+    --gap: 1.4rem;
+  }
+}
+
+@media (max-width: 58.8125em) {
+  :root {
+    --gap: 2.2rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .subtitle {
+    font-size: 1.4rem;
+  }
+  #profile-pic {
+    width: 12rem;
+    height: 12rem;
+  }
+  .icon {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .head_button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 51.125em) {
+  :root {
+    --gap: 1.4rem;
+  }
+}
+
+@media (max-width: 46em) {
+  body {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 41.4375em) {
+  :root {
+    --window-width: 70%;
+  }
+  #main-window {
+    padding: 1.4rem;
+  }
+}
+
+@media (max-width: 33.25em) {
+  :root {
+    --window-width: 80%;
+  }
+}
+
+@media (max-width: 29.0625em) {
+  #profile-pic {
+    width: 9rem;
+    height: 9rem;
+  }
+  :root {
+    --gap: 1.2rem;
+  }
+  body {
+    font-size: 1.2rem;
+  }
+  .text {
+    line-height: 1.8;
+  }
+  .title {
+    font-size: 1.6rem;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 27.125em) {
+  :root {
+    --window-width: 90%;
+    --gap: 1rem;
+  }
+}
+
+@media (max-width: 22.9375em) {
+  :root {
+    --window-width: 95%;
+  }
+}
+
+@media (max-width: 21.6875em) {
+  #profile-pic {
+    width: 6rem;
+    height: 6rem;
+  }
+  .title-div {
+    flex-direction: row;
+  }
+  .subtitle {
+    font-size: 1.2rem;
+  }
+  #main-window {
+    padding: 1rem;
+  }
+  :root {
+    --window-width: 100%;
+  }
+}

@@ -1,0 +1,56 @@
+/* Cascadia Mono : https://github.com/microsoft/cascadia-code */
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url("../fonts/CascadiaMono-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url("../fonts/CascadiaMono-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url("../fonts/CascadiaMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url("../fonts/CascadiaMono-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url("../fonts/CascadiaMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url("../fonts/CascadiaMono-ExtraLightItalic.woff2") format("woff2");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url("../fonts/CascadiaMono-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url("../fonts/CascadiaMono-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url("../fonts/CascadiaMono-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url("../fonts/CascadiaMono-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}

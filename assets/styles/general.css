@@ -1,0 +1,180 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*::selection {
+  color: rgb(0, 20, 0);
+  background-color: rgba(0, 200, 0, 0.7);
+}
+
+:root {
+  --window-width: 60%;
+  --gap: 2.2rem;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cascadia Mono", monospace;
+  font-size: 1.6rem;
+  color: #ccc;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(0, 180, 0);
+  transition: all 0.1s;
+}
+
+a:hover {
+  color: rgb(0, 220, 0);
+}
+
+a:active {
+  color: green;
+}
+
+#background {
+  z-index: -1000;
+  position: absolute;
+}
+
+#window-head {
+  width: var(--window-width);
+  height: 4rem;
+  background: rgba(0, 20, 0, 0.9);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom: 0.1rem solid green;
+  box-shadow: 0 0.4rem 0.01rem green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  user-select: none;
+  backdrop-filter: blur(0.25rem);
+}
+
+#title,
+#buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.window_title span {
+  font-style: italic;
+}
+
+.head_button {
+  border: 1px solid darkgray;
+  background: rgb(0, 20, 0);
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: darkgray;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 70ms, background 70ms;
+}
+
+.head_button:hover {
+  background: rgb(0, 5, 0);
+}
+
+.head_button:active {
+  background: darkgray;
+  color: black;
+}
+
+#window_icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+#main-window {
+  z-index: 1;
+  width: var(--window-width);
+  height: 75%;
+  background: rgba(0, 55, 0, 0.7);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 1.4rem 4.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap);
+  backdrop-filter: blur(0.25rem);
+}
+
+#profile-pic {
+  align-self: center;
+  border-radius: 50%;
+  user-select: none;
+  aspect-ratio: 1/1;
+  width: 15rem;
+  height: 15rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  align-self: center;
+}
+
+.title-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 2rem;
+  align-self: center;
+  font-style: italic;
+}
+
+.text {
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+#icons {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+  gap: 1.8rem;
+}
+
+.icon {
+  fill: #bbb;
+  width: 5rem;
+  height: 5rem;
+  transition: fill 0.2s;
+}
+
+.icon:hover {
+  fill: rgb(0, 180, 0);
+}
